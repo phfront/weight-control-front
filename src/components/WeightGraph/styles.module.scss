@@ -1,0 +1,16 @@
+.container {
+    background: var(--tertiary);
+    height: 100vh;
+    color: var(--white);
+    width: calc(100% - 30rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.graphContainer {
+    background: var(--primary);
+    width: 100%;
+    padding: 2rem;
+}

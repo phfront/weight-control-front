@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    input {
+        border: none;
+        background: transparent;
+        font-size: 1.5rem;
+        width: 260px;
+        text-align: center;
+        margin: 0 1rem;
+        outline: none;
+        cursor: pointer;
+    }
+}

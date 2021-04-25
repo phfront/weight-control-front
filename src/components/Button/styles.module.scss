@@ -1,0 +1,12 @@
+.button {
+    background: var(--tertiary);
+    color: var(--font-color-light);
+    border: none;
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+
+    &:active {
+        transform: scale(0.97);
+    }
+}

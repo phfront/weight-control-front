@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+:root {
+    --font-color-light: #fff;
+    --font-color-dark: #4d4d4d;
+
+    --primary: #d6fff6;
+    --secondary: #231651;
+    --tertiary: #4dccbd;
+    --warning: #ff8484;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+body {
+    background: var(--gray-50);
+}
+
+body, input, textarea, button {
+    font: 500 1rem sans-serif;
+    color: var(--gray-500)
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    .inputContainer {
+        width: 6rem;
+        
+        input {
+            border: none;
+            border-bottom: 5px solid var(--font-color-dark);
+            background: transparent;
+            font-size: 3rem;
+            width: 100%;
+            text-align: center;
+            outline: none;
+        }
+
+        div {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+}
