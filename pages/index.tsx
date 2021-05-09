@@ -1,7 +1,6 @@
 import { WeightGraph } from "../components/WeightGraph";
 import { InsertWeight } from "../components/InsertWeight";
 import { WeightList } from "../components/WeightList";
-import { api } from "../services/api";
 import styles from './styles.module.scss';
 import { useContext, useEffect } from "react";
 import { WeightControlContext } from "../contexts/WeightControlContext";
