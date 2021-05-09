@@ -1,3 +1,39 @@
 .container {
-    display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  height: 100vh;
+  grid-template-areas:
+    "insert graph graph graph"
+    "weights graph graph graph"
+    "weights graph graph graph"
+    "weights graph graph graph";
+}
+
+.insert {
+  grid-area: insert;
+}
+
+.weights {
+  grid-area: weights;
+}
+
+.graph {
+  grid-area: graph;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "insert"
+      "weights"
+      "weights"
+      "weights";
+  }
+
+  .graph {
+    display: none;
+  }
 }

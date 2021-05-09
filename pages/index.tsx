@@ -17,13 +17,17 @@ export default function Index() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.side}>
+      <div className={styles.insert}>
         <InsertWeightContextProvider>
           <InsertWeight />
         </InsertWeightContextProvider>
+      </div>
+      <div className={styles.weights}>
         <WeightList list={context.weights} />
       </div>
-      <WeightGraph dates={context.graphDates} weights={context.graphWeights} />
+      <div className={styles.graph}>
+        <WeightGraph dates={context.graphDates} weights={context.graphWeights} />
+      </div>
     </div>
   )
 }
